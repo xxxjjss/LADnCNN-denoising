@@ -2,6 +2,7 @@ LADnCNN: A Lightweight Attention-Based Denoising CNN for Microseismic Signal Pro
 
 Introduction
 
+
 This repository contains the implementation of five deep-learning models for one-dimensional microseismic (MS) signal denoising, including:
 
 •	AutoEncoder 
@@ -18,6 +19,7 @@ Our proposed LADnCNN model integrates a denoising convolutional neural network (
 
 Environment Requirements
 
+
 It is recommended to run the code under Linux. The code is developed using Python 3.9 and relies on the following libraries:
 
 •	PyTorch
@@ -29,6 +31,7 @@ It is recommended to run the code under Linux. The code is developed using Pytho
 •	Matplotlib
 
 Folder Structure
+
 
 •	AutoEncoder/: Implementation of the AutoEncoder-based denoising model.
 
@@ -55,3 +58,6 @@ models/:
 •	U-Net_best.pth
 
 (These are the best-performing trained models for each architecture.)
+
+
+You can train the models in train and test.py
